@@ -1,0 +1,48 @@
+body{
+    font-family: Poppins;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+.started {
+    position: relative;
+    height: 100vh; 
+    background-color: #ffffff; 
+    overflow: hidden;
+  }
+  .circle-shadow {
+    position: absolute;
+    border-radius: 50%; 
+  }
+  .circle1 {
+    background-color: #6EA8FF1A;
+    width: 633.21px;
+    height: 633.21px;
+    top: 50%;
+    right: 34%;
+    transform: translate(50%, -41%);
+  }
+  .circle2 {
+    background-color:  #6EA8FF1A;
+    ;
+    width: 811px;
+    height: 811px;
+    top: 68%;
+    right: 444px;
+    transform: translate(50%, -47%);
+  }
+
+.circle-overlay {
+  position: absolute;
+  top: 50%;
+  right: -6%;
+  transform: translate(-50%, -50%);
+  z-index: 2; 
+}
+.overlay-image {
+  width: 549px; 
+  height: auto;
+  border-radius: 50%;
+}
